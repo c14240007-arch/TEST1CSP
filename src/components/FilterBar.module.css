@@ -1,0 +1,30 @@
+.filterBar { margin-bottom: 15px; }
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.searchRow {
+  display: flex;
+  gap: 8px;
+}
+
+.searchRow input {
+  flex: 1;
+  min-width: 0;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.filterActive {
+  background: #cfe5f5;
+  border-color: #1877b8;
+}
+
+.filters .filterActive:hover { background: #bcd8ec; }

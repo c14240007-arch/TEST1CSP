@@ -1,0 +1,41 @@
+.menuCard {
+  background: white;
+  border: 1px solid #aaa;
+  padding: 12px;
+  min-width: 0;
+}
+
+.menuCard:hover { border-color: #1877b8; }
+
+.habis {
+  background: #dbdbdb;
+}
+
+.cardTop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+
+.category { font-size: 13px; }
+
+.menuCard h3 {
+  font-size: 18px;
+  margin: 12px 0;
+  overflow-wrap: anywhere;
+}
+
+.cardBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.price { font-size: 15px; }
+
+.primary { background: #e1eff8; }
+
+.primary:hover:not(:disabled) { background: #cfe5f5; }

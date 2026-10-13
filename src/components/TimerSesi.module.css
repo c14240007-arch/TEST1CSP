@@ -1,0 +1,6 @@
+.timer {
+  margin: 0;
+  font-size: 14px;
+}
+
+.timer strong { font-variant-numeric: tabular-nums; }

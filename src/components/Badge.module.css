@@ -1,0 +1,12 @@
+.badge {
+  padding: 2px 6px;
+  border: 1px solid #ccc;
+  background: #eee;
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.badgeHabis {
+  color: #b00000;
+  background: #ffe5e5;
+}
